@@ -1,7 +1,7 @@
 # Multicore Task Scheduling Optimisation
 
 A heuristic scheduling algorithm developed for the
-**G-Research Cambridge Coding Challenge**.
+**G-Research Coding Challenge hosted by Cambridge University**.
 
 ## Overview
 
