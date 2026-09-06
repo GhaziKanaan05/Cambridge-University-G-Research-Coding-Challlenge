@@ -44,7 +44,6 @@ remaining tasks are re-evaluated.
 ## Files
 
 - `solution.py` — implementation of the scheduling algorithm
-- `example.py` — simple demonstration of the algorithm
 
 ## Note
 
