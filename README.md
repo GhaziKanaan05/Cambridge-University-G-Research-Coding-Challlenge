@@ -39,7 +39,7 @@ remaining tasks are re-evaluated.
 
 ## Result
 
-**4th out of 50 participants** in the G-Research Cambridge Coding Challenge.
+**4th out of 50 participants** in the G-Research Cambridge Coding Challenge (Highest ranked undergraduate.
 
 ## Files
 
