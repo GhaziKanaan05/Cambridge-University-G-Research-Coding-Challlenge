@@ -43,7 +43,7 @@ remaining tasks are re-evaluated.
 
 ## Files
 
-- `solution.py` — implementation of the scheduling algorithm
+- [`solution.py`](solution.py) — implementation of the scheduling algorithm
 
 ## Note
 
