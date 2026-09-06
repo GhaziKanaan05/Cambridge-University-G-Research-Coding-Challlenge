@@ -1,6 +1,6 @@
 # Multicore Task Scheduling Optimisation
 
-A heuristic scheduling algorithm developed for the
+A heuristic scheduling algorithm developed for the  
 **G-Research Coding Challenge** hosted by Cambridge University.
 
 ## Overview
@@ -21,27 +21,23 @@ available when tasks were scheduled sufficiently quickly.
 
 ## Visualisation
 
-```mermaid
-gantt
-    title Example Multicore Task Schedule
-    dateFormat X
-    axisFormat %s
+A simplified example of the multicore scheduling problem:
 
-    section Core 1
-    Task A :a1, 0, 5
-    Task D :a2, 5, 4
+```text
+Time      0       2       4       6       8      10
+          |-------|-------|-------|-------|-------|
 
-    section Core 2
-    Task B :b1, 0, 3
-    Task E :b2, 3, 5
+Core 1    [ Task A       ][ Task D           ]
+Core 2    [ Task B   ][ Task E               ]
+Core 3        [ Task C           ][ Task F    ]
 
-    section Core 3
-    Task C :c1, 1, 5
-    Task F :c2, 6, 4
+          ────────────────────────────────────────→
+                         Time
 ```
 
-The visual above illustrates how tasks can be distributed across multiple
-processor cores over time.
+Each task must be assigned to a processor and a start time. The scheduler
+balances processor availability against time-sensitive rewards and bonuses
+to determine which task should be executed next.
 
 ## Approach
 
@@ -72,4 +68,4 @@ remaining tasks are re-evaluated.
 ## Note
 
 This repository contains my scheduling approach rather than any
-proprietary challenge datasets or test cases. cases.
+proprietary challenge datasets or test cases.s. cases.
