@@ -19,26 +19,6 @@ Each task had characteristics including:
 Rewards decreased when tasks were delayed, while additional bonuses were
 available when tasks were scheduled sufficiently quickly.
 
-## Visualisation
-
-A simplified example of the multicore scheduling problem:
-
-```text
-Time      0       2       4       6       8      10
-          |-------|-------|-------|-------|-------|
-
-Core 1    [ Task A       ][ Task D           ]
-Core 2    [ Task B   ][ Task E               ]
-Core 3        [ Task C           ][ Task F    ]
-
-          ────────────────────────────────────────→
-                         Time
-```
-
-Each task must be assigned to a processor and a start time. The scheduler
-balances processor availability against time-sensitive rewards and bonuses
-to determine which task should be executed next.
-
 ## Approach
 
 I developed a greedy scheduling heuristic that dynamically evaluates
